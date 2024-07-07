@@ -26,3 +26,34 @@ body{
     padding-bottom: 30px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.522);
 }
+
+nav{
+    border-right: 1px solid rgba(255, 255, 255, 0.522);
+    padding: 40px;
+}
+
+article{
+    padding: 40px;
+}
+
+article img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+article p{
+    padding-top: 40px;
+}
+
+aside{
+    border-left: 1px solid rgba(255, 255, 255, 0.522);
+    padding: 40px;
+}
+
+footer{
+    grid-column: span 3;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.522);
+    padding: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.522);
+}
