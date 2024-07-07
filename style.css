@@ -71,3 +71,26 @@ a{
     text-decoration: none;
     color: white;
 }
+
+/* Add responsiveness */
+
+/* for 980px */
+
+@media screen and (max-width: 980px) {
+    nav{
+        grid-column: span 3;
+        border-right: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.522)
+    }
+
+    article{
+        grid-column: span 3;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.522)
+    }
+
+    aside{
+        grid-column: span 3;
+        border-left: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.522)
+    }
+}
