@@ -4,3 +4,16 @@
     box-sizing: border-box;
     font-family: poppins;
 }
+
+body{
+    color: white;
+    background-color: rgb(20, 3, 33);
+}
+
+.main-grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
